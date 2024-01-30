@@ -20,14 +20,24 @@
 		],
 		"description": "nextjs useState function"
 	},
-	"nextjs-arrow-function-component": {
-		"prefix": "nafc",
+	"nextjs-arrow-function-page": {
+		"prefix": "nafp",
 		"body": [
 			"const ${1:${TM_DIRECTORY/^.+\\\\(.*)$/${1:/capitalize}/}${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}} = () => {",
-			"	return <div>${2:Hello World}</div>;",
+			"	return <div>${1:${TM_DIRECTORY/^.+\\\\(.*)$/${1:/capitalize}/}${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}</div>;",
 			"};",
 			"",
 			"export default ${1:${TM_DIRECTORY/^.+\\\\(.*)$/${1:/capitalize}/}${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}};"
+		],"description": "nextjs arrow function page"
+	},
+	"nextjs-arrow-function-component": {
+		"prefix": "nafc",
+		"body": [
+			"const ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}} = () => {",
+			"	return <div>${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}</div>;",
+			"};",
+			"",
+			"export default ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}};"
 		],"description": "nextjs arrow function component"
 	},
 
