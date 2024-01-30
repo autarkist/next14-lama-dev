@@ -1,12 +1,12 @@
-:root{
+:root {
     --bg: #0d0c22;
-    --bgSoft:#2d2b42;
-    --text:white;
-    --textSoft:#e5e5e5;
+    --bgSoft: #2d2b42;
+    --text: white;
+    --textSoft: #e5e5e5;
     --btn: #3673fd;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,14 +17,21 @@ body {
     color: var(--text);
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
 
-.container {
-    background-color: rebeccapurple;
-    width: 1536px;
+.container {}
+
+.container-navbar {
+    background-color: blue;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.container-content {
+    width: 100vw;
     margin: auto;
     padding-left: 50px;
     padding-right: 50px;
@@ -32,4 +39,10 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.container-footer {
+    background-color: blue;
+    padding-left: 50px;
+    padding-right: 50px;
 }

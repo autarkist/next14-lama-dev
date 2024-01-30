@@ -1,5 +1,6 @@
-import Link from "next/link";
-import styles from "./links.module.css"
+// import Link from "next/link";
+import NavLink from "./navLink/navLink";
+import styles from "./links.module.css";
 const Links = () => {
   const links = [
     {
@@ -19,12 +20,15 @@ const Links = () => {
       path: "/blog",
     },
   ];
+
+  //Temporary
+  const session = true;
+  const isAdmin = true;
+
   return (
     <div className={styles.links}>
       {links.map((link) => (
-        <Link href={link.path} key={link.title}>
-          {link.title}
-        </Link>
+        <NavLink item={link} key={link.title} />
       ))}
     </div>
   );
