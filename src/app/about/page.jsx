@@ -1,9 +1,5 @@
-import { useState } from "react";
-
 const AboutPage = () => {
-  const [open, setOpen] = useState();
-
-  return <div>Hello World</div>;
+  return <div>About Page!</div>;
 };
 
 export default AboutPage;
