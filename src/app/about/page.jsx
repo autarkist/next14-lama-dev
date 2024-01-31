@@ -3,7 +3,7 @@ import styles from "./about.module.css";
 const AboutPage = () => {
   return (
     <div className={styles.imgContainer}>
-      <Image src="/public/" alt="" fill />
+      <Image src="/static/chalet-5218666_1280.png" alt="" fill />
     </div>
   );
 };
