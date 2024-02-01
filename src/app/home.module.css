@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    gap: 100px;
+}
+
+.textContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.imgContainer{
+    flex: 1;
+    position: relative;
+}
+
+.brands {
+    position: relative;
+    width: 500px;
+    height: 50px;
+    filter: grayscale(1)
+}
