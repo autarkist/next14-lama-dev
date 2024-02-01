@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.imgContainer {
+    position: relative;
+    flex: 1 1 0;
+    width: 0;
+    height: 400px;
+}
+
+.img{
+    object-fit: contain;
+}
+
+.formContainer {
+    flex: 1 1 0;
+    width: 0;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form input,
+.form textarea{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: var(--bgSoft);
+    color: var(--text)
+}
+
+.form button {
+    padding: 20px;
+    background-color: var(--btn);
+    color: var(--text);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
