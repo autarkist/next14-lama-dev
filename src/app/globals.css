@@ -34,7 +34,7 @@ a {
     margin: auto;
     padding-left: 50px;
     padding-right: 50px;
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 200px);
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
