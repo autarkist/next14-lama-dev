@@ -1,5 +1,5 @@
 const PostCard = () => {
-    return <div>PostCard</div>;
+    return <div className={}>PostCard</div>;
 };
 
 export default PostCard;
