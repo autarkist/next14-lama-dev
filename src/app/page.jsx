@@ -12,9 +12,11 @@ const Home = () => {
       <div className={styles.button}>Contact</div>
     </div>
     <div className={styles.brands}>
-      <Image src="brand.png" fill alt="" />
+      <Image src="/brands.png" fill alt="" className={styles.brand} />
     </div>
-    <div className={styles.imgContainer}></div>
+    <div className={styles.imgContainer}>
+      <Image className={styles.heroImage} src="/hero.gif" fill alt=""/>
+    </div>
   </div>;
 };
 
