@@ -8,3 +8,29 @@
 .post {
     width: 33%;
 }
+
+
+
+/* Breakpoints */
+
+/* Media queries for different screen sizes */
+@media (max-width: 768px) {
+
+    /* Styles for screens with a maximum width of 768px */
+    .post{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* Styles for screens with a minimum width of 768px and a maximum width of 1024px */
+    .post {
+        width:47%;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    /* Styles for screens with a minimum width of 1024px */
+}
